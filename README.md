@@ -1,3 +1,3 @@
-# Computo-paralelo-y-en-la-nube
+# Computo Paralelo y en la Nube
 https://github.com/octavio-gutierrez/computoparalelo2026a
-## Intro 
+## Introducción al paralelismo 
