@@ -22,13 +22,21 @@ $\rightarrow$ Código:
 $\rightarrow$ Código: 
 
 ## Modelos de programación paralela
-
-## Diseño de programas paralelos 
-
+- Modelo de hilos
+- Modelo de memoria compartida
+- Modelo de paso de mensajes
+- Modelo paralelo de datos
+## Diseño de programas paralelos
+- Relación entre el problema, los recursos y la estrategia de paralelismo
+- Granularidad y particionamiento
+- Comunicación y sincronización 
 ## Modelo de hilos
-
+- as comunes: deadlock y condiciones de carrera
+- Sincronización, regiones críticas y operaciones atómicas
 ## Modelo de memoria compartida: OpenMP
-
+- Hilos y sincronización
+- For paralelos
+- Directivas 
 ## Modelo de paso de mensajes: MPI
 
 ## Paralelización con CUDA para arquitecturas GPU
