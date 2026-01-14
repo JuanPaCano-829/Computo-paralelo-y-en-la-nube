@@ -38,5 +38,9 @@ $\rightarrow$ Código:
 - For paralelos
 - Directivas 
 ## Modelo de paso de mensajes: MPI
-
+- Comunicación punto a punto
+- Comunicación colectiva
+- Directivas 
 ## Paralelización con CUDA para arquitecturas GPU
+- Introducción a CUDA
+- Modelo e interfaz de programación
