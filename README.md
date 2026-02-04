@@ -1,6 +1,10 @@
 # Computo Paralelo
 https://github.com/octavio-gutierrez/computoparalelo2026a
+##
 ## Introducción al paralelismo
+- Introducción a julia
+
+$\rightarrow$ Código: primerCodigo.jl
 - Justificación y necesidad del paralelismo
 
 $\rightarrow$ Código: 
