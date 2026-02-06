@@ -28,3 +28,42 @@ function simple_counting(n)
     end
     return a[1]
 end
+
+function dimsinucion(n)
+    @time begin
+        valor = 10000000
+        for i in 1:n
+            valor -= 1
+        end
+    end
+end
+
+function dimsinucion2(n)
+    @time begin
+        valor = 10000000
+        @threads for i in 1:n
+            valor -= 1
+        end
+    end
+end
+
+function dimsinucion3(n)
+    @time begin
+        lk = ReentrantLock()
+        valor = 10000000
+        @threads for i in 1:n
+            lock(lk) do 
+                valor -= 1
+            end
+        end
+    end
+end
+
+function dimsinucion4(n)
+    @time begin
+        valor = 10000000
+        @threads for i in 1:n
+            10000000 - i
+        end
+    end
+end
